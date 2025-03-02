@@ -48,24 +48,24 @@
 
 На сайте визитке отображаются только следующие поля из файла `vcard.vcf`:
 
-- **Полное имя** - `FN:Имя Отчество Фамилия` (можно указывать не полностью), которое также содержится в поле `N:Фамилия;Имя;Отчество;Префикс;`.
-- **Псевдоним** `NICKNAME:ваш псевдоним`.
-- **Организация** - `ORG:ваша организация`. Если значение указано, то оно отображается под именем вместо псевдонима, в таком случае псевдоним отображается при клике на имя.
-- **`Email`** - `EMAIL;type=INTERNET;type=HOME;type=pref:ваш@email.dot`. Если указано несколько email-адресов (домашний, рабочий и т.д.), то отображается значения только первого email-адреса.
-- **Телефон** - `TEL;type=CELL;type=VOICE;type=pref:+7 123 456-78-90`. Если указано несколько телефонов (сотовый, домашний, рабочий и т.д.), то отображается значения только первого телефона.
-- **Ссылка** - `URL;type=pref:https://ваш-сайт.рф/`. Отображается при клике на соответствующую иконку в правом нижнем углу аватара.
-- **Заметка** - `NOTE:Краткая информация о себе`. Может содержать дополнительные ссылки, начинающиеся с `https://` или `www.`, а также символ переноса строки `\n`. Отображается при клике на соответствующую иконку в левом нижнем углу аватара.
-- **ИД социальных профайлов** - ИД (логин, телефон), полный URL-адрес или пустое значение (для отображения не кликабельной иконки): 
-	- `X-SOCIALPROFILE;type=WhatsApp:+71234567890` - телефон `+71234567890` в `WhatsApp`.
-	- `X-SOCIALPROFILE;type=Telegram:@username` - ИД `@username` в `Telegram`.
-	- `X-SOCIALPROFILE;type=Viber:+71234567890` - телефон `+71234567890` в `Viber`.
-	- `X-SOCIALPROFILE;type=VK:username` - Логин `username` в `VK`.
+- **Full Name** - `FN:First Name Middle Name Last Name` (you can specify it not in full), which is also contained in the `N:Last Name;First Name;Middle Name;Prefix;` field.
+- **Nickname** `NICKNAME:Arif Mahmud`.
+- **Organization** - `ORG:your organization`. If a value is specified, it is displayed under the name instead of the alias, in which case the alias is displayed when the name is clicked.
+- **`Email`** - `EMAIL;type=INTERNET;type=HOME;type=pref:mail@arifmahmud.com`. If multiple email addresses are specified (home, work, etc.), only the values of the first email address are displayed.
+- **Phone** - `TEL;type=CELL;type=VOICE;type=pref:+88 01915822266`. If several phones are specified (cellular, home, work, etc.), only the values of the first phone are displayed.
+- **Link** - `URL;type=pref:https://arifmahmud.com/`. Displayed when you click on the corresponding icon in the lower right corner of the avatar.
+- **Note** - `NOTE:Brief information about yourself`. Can contain additional references starting with `https://` or `www.`, as well as the line break character `\n`. Displayed when you click on the corresponding icon in the bottom left corner of the avatar.
+- **ID of social profiles** - ID (login, phone), full URL or empty value (to display non-clickable icon): 
+	- `X-SOCIALPROFILE;type=WhatsApp:+8801915822266` - phone `+8801915822266` in `WhatsApp`.
+	- `X-SOCIALPROFILE;type=Telegram:@pranto48` - ID `@pranto48` in `Telegram`.
+	- `X-SOCIALPROFILE;type=Viber:+8801915822266` - Phone `+8801915822266` in `Viber`.
+	- `X-SOCIALPROFILE;type=VK:username` - Username `username` in `VK`.
 	- `X-SOCIALPROFILE;type=Facebook:`
 	- `X-SOCIALPROFILE;type=Instagram:`
 	- `X-SOCIALPROFILE;type=Twitter:`
 	- `X-SOCIALPROFILE;type=Flickr:`
 	- `X-SOCIALPROFILE;type=LinkedIn:`
-	- `X-SOCIALPROFILE;type=GitHub:https://github.com/username` - ссылка `https://github.com/username` на `GitHub`.
+	- `X-SOCIALPROFILE;type=GitHub:https://github.com/username` - link `https://github.com/username` to `GitHub`.
 
 > С помощью онлайн-сервиса [vCard maker](https://vcardmaker.com/) вы не сможете добавить все указанные профили социальных сетей, в таком случае необходимо будет добавить их вручную, отредактировав файл `vcard.vcf` после экспорта.
 
