@@ -65,7 +65,7 @@ Only the following fields from the `vcard.vcf` file are displayed on the vCard s
 	- `X-SOCIALPROFILE;type=Twitter:`
 	- `X-SOCIALPROFILE;type=Flickr:`
 	- `X-SOCIALPROFILE;type=LinkedIn:`
-	- `X-SOCIALPROFILE;type=GitHub:https://github.com/username` - link `https://github.com/username` to `GitHub`.
+	- `X-SOCIALPROFILE;type=GitHub:https://github.com/pranto48` - link `https://github.com/pranto48` to `GitHub`.
 
 > Using the [vCard maker](https://vcardmaker.com/) online service, you will not be able to add all the specified social network profiles, in which case you will need to add them manually by editing the `vcard.vcf` file after export.
 
