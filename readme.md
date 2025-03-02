@@ -49,16 +49,16 @@ A link to a card with contact details is displayed in the upper left corner of t
 Only the following fields from the `vcard.vcf` file are displayed on the vCard site:
 
 - **Full Name** - `FN:First Name Middle Name Last Name` (you can specify it not in full), which is also contained in the `N:Last Name;First Name;Middle Name;Prefix;` field.
-- **Nickname** `NICKNAME:your nickname`.
+- **Nickname** `NICKNAME:Arif Mahmud`.
 - **Organization** - `ORG:your organization`. If a value is specified, it is displayed under the name instead of the alias, in which case the alias is displayed when the name is clicked.
-- **`Email`** - `EMAIL;type=INTERNET;type=HOME;type=pref:your@email.dot`. If multiple email addresses are specified (home, work, etc.), only the values of the first email address are displayed.
-- **Phone** - `TEL;type=CELL;type=VOICE;type=pref:+7 123 456-78-90`. If several phones are specified (cellular, home, work, etc.), only the values of the first phone are displayed.
-- **Link** - `URL;type=pref:https://your-site.com/`. Displayed when you click on the corresponding icon in the lower right corner of the avatar.
+- **`Email`** - `EMAIL;type=INTERNET;type=HOME;type=pref:mail@arifmahmud.com`. If multiple email addresses are specified (home, work, etc.), only the values of the first email address are displayed.
+- **Phone** - `TEL;type=CELL;type=VOICE;type=pref:+88 01915822266`. If several phones are specified (cellular, home, work, etc.), only the values of the first phone are displayed.
+- **Link** - `URL;type=pref:https://arifmahmud.com/`. Displayed when you click on the corresponding icon in the lower right corner of the avatar.
 - **Note** - `NOTE:Brief information about yourself`. Can contain additional references starting with `https://` or `www.`, as well as the line break character `\n`. Displayed when you click on the corresponding icon in the bottom left corner of the avatar.
 - **ID of social profiles** - ID (login, phone), full URL or empty value (to display non-clickable icon): 
-	- `X-SOCIALPROFILE;type=WhatsApp:+71234567890` - phone `+71234567890` in `WhatsApp`.
-	- `X-SOCIALPROFILE;type=Telegram:@username` - ID `@username` in `Telegram`.
-	- `X-SOCIALPROFILE;type=Viber:+71234567890` - Phone `+71234567890` in `Viber`.
+	- `X-SOCIALPROFILE;type=WhatsApp:+8801915822266` - phone `+8801915822266` in `WhatsApp`.
+	- `X-SOCIALPROFILE;type=Telegram:@pranto48` - ID `@pranto48` in `Telegram`.
+	- `X-SOCIALPROFILE;type=Viber:+8801915822266` - Phone `+8801915822266` in `Viber`.
 	- `X-SOCIALPROFILE;type=VK:username` - Username `username` in `VK`.
 	- `X-SOCIALPROFILE;type=Facebook:`
 	- `X-SOCIALPROFILE;type=Instagram:`
