@@ -33,12 +33,12 @@ Files in [business card site folder](https://vcard.arifmahmud.com/) for basic us
 <a name="download-business-card-website-template"></a>
 ### Download the business card site template
 
-You can download business card site files from [link](https://vcard.arifmahmud.com//archive/refs/heads/master.zip) or go to [business card site folder](https://github.com/GrigoryKovalev/online-business-card) and download the ZIP archive by clicking the `Code` button on the right above the list of files, and then - `Download ZIP`.
+You can download business card site files from [link](https://vcard.arifmahmud.com//archive/refs/heads/master.zip) or go to [business card site folder](https://vcard.arifmahmud.com/) and download the ZIP archive by clicking the `Code` button on the right above the list of files, and then - `Download ZIP`.
 
 <a name="add-contact-details"></a>
 ### Add your contact details
 
-You can create and export a card with your contact details and avatar to a [VCF file](https://en.wikipedia.org/wiki/VCard) on your [Android](https://support.google.com/contacts/answer/7199294?hl=en) device, [Apple](https://support.apple.com/en-us/guide/contacts/adrbdcfd32e6/mac) or using the online service [vCard maker](https://vcardmaker.com/), and then replace the `vcard.vcf` file in the [business card site folder](https://github.com/GrigoryKovalev/online-business-card) with the one you created with the same name.
+You can create and export a card with your contact details and avatar to a [VCF file](https://en.wikipedia.org/wiki/VCard) on your [Android](https://support.google.com/contacts/answer/7199294?hl=en) device, [Apple](https://support.apple.com/en-us/guide/contacts/adrbdcfd32e6/mac) or using the online service [vCard maker](https://vcardmaker.com/), and then replace the `vcard.vcf` file in the [business card site folder](https://vcard.arifmahmud.com/) with the one you created with the same name.
 
 You can then also edit your contact details in the `vcard.vcf` file using a text editor on your computer (Windows/Notepad or macOS/TextEdit) and also edit online after [creating a business card site](#create-digital-business-card-website).
 
@@ -72,7 +72,7 @@ Only the following fields from the `vcard.vcf` file are displayed on the vCard s
 <a name="add-your-avatar"></a>
 ### Add an avatar
 
-Replace the file `avatar.jpg` in the [business card site folder](https://github.com/GrigoryKovalev/online-business-card) with an image of your avatar with the same name, width and height of at least `330px`, if the height is greater than the width, then only by clicking the avatar will be displayed in full.
+Replace the file `avatar.jpg` in the [business card site folder](https://vcard.arifmahmud.com/) with an image of your avatar with the same name, width and height of at least `330px`, if the height is greater than the width, then only by clicking the avatar will be displayed in full.
 
 > You can trim and convert an image to `JPG`, for example, using the online service [iLoveImg](https://www.iloveimg.com/), and give the artistic style of your photo - using the application [Prisma](https://prisma-ai.com).
 
@@ -83,11 +83,11 @@ Delete or better replace the file `favicon.ico` with the image of your icon to d
 <a name="change-background"></a>
 ### Change background
 
-Replace the `background.jpg` file in the [business card site folder](https://github.com/GrigoryKovalev/online-business-card) with your background image with the same name.
+Replace the `background.jpg` file in the [business card site folder](https://vcard.arifmahmud.com/) with your background image with the same name.
 
 > You can download wallpapers to your desktop as a background, for example, using the online service [Wallpapers.com](https://wallpapers.com).
 
-If you wish, you can not use a background image or vice versa, use it only in the [QR-code](#create-qr-code) display mode, to do this, replace the `index.html` file in the [business card site folder](https://github.com/GrigoryKovalev/online-business-card) with one of the files in the `/example` directory (copy and rename the file to `index.html`):
+If you wish, you can not use a background image or vice versa, use it only in the [QR-code](#create-qr-code) display mode, to do this, replace the `index.html` file in the [business card site folder](https://vcard.arifmahmud.com/) with one of the files in the `/example` directory (copy and rename the file to `index.html`):
 
 - [`index.html`](https://grigorykovalev.github.io/online-business-card/example/index.html) - a template with a white background and a black background in the QR code display mode.
 - [`index.background.html`](https://grigorykovalev.github.io/online-business-card/example/index.background.html) - template with white background and background image in QR code display mode.
@@ -120,7 +120,7 @@ You can also change the font by copying one of the files in the `/example` direc
 <a name="create-qr-code"></a>
 ### Create a QR Code
 
-Create a QR code with a link to your business card site, for example, using the [QRCode Monkey](https://www.qrcode-monkey.com) online service and replace the `qrcode.png` file in the [business card site folder](https://github.com/GrigoryKovalev/online-business-card) to your QR code image with the same name. 
+Create a QR code with a link to your business card site, for example, using the [QRCode Monkey](https://www.qrcode-monkey.com) online service and replace the `qrcode.png` file in the [business card site folder](https://vcard.arifmahmud.com/) to your QR code image with the same name. 
 
 > You can create and update a QR code after [creating a business card website](#create-digital-business-card-website).
 
