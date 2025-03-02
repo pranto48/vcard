@@ -2,9 +2,9 @@
 
 > Смотрите также [документацию на Русском](readme.ru.md) 👀.
 
-[![Screenshots](https://grigorykovalev.github.io/online-business-card/example/example.gif)](https://grigorykovalev.github.io/online-business-card/example/example.jpg)
+[![Screenshots](https://vcard.arifmahmud.com/example/example.gif)](https://vcard.arifmahmud.com/example.jpg)
 
-> Example of a [digital business card site](https://grigorykovalev.github.io/online-business-card/).
+> Example of a [digital business card site](https://vcard.arifmahmud.com/).
 
 - [Description](#about)
 - [How to use](#how-to-use)
@@ -20,7 +20,7 @@
 
 [Digital business card template](#download-business-card-website-template), which you can modify and place on any hosting, including [GitHub Pages](https://docs.github.com/ru/pages), then the site of your electronic business card will be available at the address of the form `username.github.io`, where `username` is your username.
 
-Files in [business card site folder](https://github.com/GrigoryKovalev/online-business-card) for basic use:
+Files in [business card site folder](https://vcard.arifmahmud.com/) for basic use:
 
 - [`vcard.vcf`](#add-contact-details) - file in text format [vCard](https://en.wikipedia.org/wiki/VCard) to fill in the details of your electronic business card. 
 - [`avatar.jpg`](#add-your-avatar) - avatar to replace with your image.
@@ -33,7 +33,7 @@ Files in [business card site folder](https://github.com/GrigoryKovalev/online-bu
 <a name="download-business-card-website-template"></a>
 ### Download the business card site template
 
-You can download business card site files from [link](https://github.com/GrigoryKovalev/online-business-card/archive/refs/heads/master.zip) or go to [business card site folder](https://github.com/GrigoryKovalev/online-business-card) and download the ZIP archive by clicking the `Code` button on the right above the list of files, and then - `Download ZIP`.
+You can download business card site files from [link](https://vcard.arifmahmud.com//archive/refs/heads/master.zip) or go to [business card site folder](https://github.com/GrigoryKovalev/online-business-card) and download the ZIP archive by clicking the `Code` button on the right above the list of files, and then - `Download ZIP`.
 
 <a name="add-contact-details"></a>
 ### Add your contact details
